@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div ul li {
+    color: #91ff00;
+}
+
+div ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.sidebar_navigation .logo {
+    padding: 16px 0 0 16px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar nav ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.sidebar {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.library {
+    background-color: #121212;
+    margin-top: 10px;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    width: 285px;
+    height: 400px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.library .library_content {
+    display: flex;
+    justify-content: space-between;
+    color: #b3b3b3;
+}
+
+.library .library_button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library .library_button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    padding-right: 8px;
+    font-weight: 300;
+} 
+
+.library .library_content .fa-plus {
+    margin: 24px 10px;
+    cursor: pointer;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    border-radius: 5px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.section-playlist__content .title{
+    font-weight: bold;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #121212;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0;
+    width: 113px;
+    margin-top: 12px;
+}
+
+.section-playlist__button span {
+    font-weight: bold;
+}
+
+.cookies a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #b3b3b3;
+    font-weight: normal;
+}
+
+.cookies a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.languages {
+    background-color: transparent;
+    margin: 10px;
+}
+
+.languages__button {
+    background-color: transparent;
+    border: .5px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 22px;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.disclaimer-premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+    background-image: linear-gradient(to right, rgba(15, 66, 0, 0.384),rgb(46, 199, 0));
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 8px;
+}
+
+.disclaimer-premium__subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin: 8px;
+}
+
+.button {
+    background-color: #fff;
+    color: #121212;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 200px;
+    margin-top: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
