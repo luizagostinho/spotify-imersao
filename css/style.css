@@ -200,7 +200,7 @@ div ul li a:hover {
     left: 0;
     right: 0;
     padding: 15px 40px;
-    background-image: linear-gradient(to right, rgba(15, 66, 0, 0.384),rgb(46, 199, 0));
+    background-image: linear-gradient(to right, rgb(15, 66, 0),rgb(46, 199, 0));
 }
 
 .disclaimer-premium .text {
